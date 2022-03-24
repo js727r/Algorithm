@@ -1,4 +1,4 @@
-package 구슬탈출;
+package gold.구슬탈출;
 
 // https://www.acmicpc.net/problem/13460
 import java.io.*;

@@ -1,4 +1,4 @@
-package 스도쿠;
+package gold.스도쿠;
 // https://www.acmicpc.net/problem/2580
 
 import java.io.*;
@@ -8,7 +8,6 @@ public class Main {
 	static int sdk[][];
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		sdk = new int[9][9];
 		for (int i = 0; i < 9; i++) {

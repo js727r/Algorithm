@@ -1,4 +1,4 @@
-package 연구소;
+package gold.연구소;
 
 // https://www.acmicpc.net/problem/14502
 import java.io.*;

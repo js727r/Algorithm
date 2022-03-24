@@ -1,9 +1,10 @@
+package silver.silver2.후보추천하기;
 import java.io.*;
 import java.util.*;
 
 // https://www.acmicpc.net/problem/1713
 
-public class Main {
+public class 후보추천하기 {
 	static class Frame implements Comparable<Frame> {
 		int student;
 		int frameNum;

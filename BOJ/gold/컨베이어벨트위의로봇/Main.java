@@ -1,3 +1,4 @@
+package gold.컨베이어벨트위의로봇;
 // https://www.acmicpc.net/problem/20055
 
 import java.io.*;

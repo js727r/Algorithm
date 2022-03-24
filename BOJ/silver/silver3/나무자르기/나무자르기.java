@@ -1,9 +1,10 @@
+package silver.silver3.나무자르기;
 // https://www.acmicpc.net/problem/2805
 
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class 나무자르기 {
 	static int N, M;
 	static int[] tree;
 

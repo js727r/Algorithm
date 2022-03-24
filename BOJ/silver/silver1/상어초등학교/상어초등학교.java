@@ -1,9 +1,10 @@
+package silver.silver1.상어초등학교;
 // https://www.acmicpc.net/problem/21608
 
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class 상어초등학교 {
 	static class Position implements Comparable<Position> {
 		int r, c;
 		int love;
@@ -35,7 +36,6 @@ public class Main {
 
 		@Override
 		public String toString() {
-			// TODO Auto-generated method stub
 			return String.format("(%d,%d),(%d,%d)", r, c, love, vacancy);
 		}
 	}
