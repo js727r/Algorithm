@@ -139,7 +139,6 @@ public class Main {
 		int time = 0;
 		Command next = queue.poll();
 		while (snake.move()) {
-				
 			if (++time == next.time) {
 				snake.changeDirection(next.command);
 				if (!queue.isEmpty()) {
