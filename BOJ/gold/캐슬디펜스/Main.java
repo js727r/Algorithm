@@ -1,3 +1,5 @@
+package gold.캐슬디펜스;
+
 import java.io.*;
 import java.util.*;
 
