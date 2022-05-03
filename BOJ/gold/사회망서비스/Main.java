@@ -55,13 +55,11 @@ public class Main {
 				if (!early[temp.vertex])
 					non_early++;
 			}
-
 		}
 		if (non_early != 0) { 
 			early[node] = true;
 			answer++;
 		}
-
 	}
 
 }
