@@ -38,16 +38,16 @@ public class Main {
 		// C 기준
 		temp = Arrays.copyOf(dice, 6);
 		dice[0] = temp[2];
-		dice[2] = temp[0];
+		dice[2] = temp[5];
 		dice[5] = temp[3];
-		dice[3] = temp[5];
+		dice[3] = temp[0];
 		calcShow(dice, show);
 
 		// D 기준
 		dice[0] = temp[3];
-		dice[2] = temp[0];
-		dice[5] = temp[2];
 		dice[3] = temp[5];
+		dice[5] = temp[2];
+		dice[2] = temp[0];
 		calcShow(dice, show);
 
 		if (N == 1) {
@@ -92,8 +92,8 @@ public class Main {
 		int queue[] = new int[4];
 		queue[0] = dice[1];
 		queue[1] = dice[2];
-		queue[2] = dice[3];
-		queue[3] = dice[4];
+		queue[2] = dice[4];
+		queue[3] = dice[3];
 		// 기준숫자 돌리기
 		// show[1~3] 최소값 계산 + 기준값 포함
 		for (int i = 0; i < 4; i++) {
