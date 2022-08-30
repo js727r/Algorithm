@@ -7,6 +7,7 @@ public class Main {
 
 	static Stack<Character> stack = new Stack<>();
 	public static void main(String[] args) {
+		
 		Scanner sc = new Scanner(System.in);
 		String input = sc.nextLine();
 		int len = input.length();
